@@ -1,0 +1,13 @@
+{
+  "name": "next-dev-async-hooks-leak-repro",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=--inspect next dev",
+    "measure": "node scripts/heap.mjs 9230"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  }
+}
